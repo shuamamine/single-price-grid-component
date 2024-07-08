@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(204, 43%, 93%);
+    font-family: "Karla",sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+}
+.whitebg{
+    background-color: white;
+    border-radius: 20px 20px 0 0;
+    padding: 5%;
+}
+.whitebg span{
+color: hsl(71, 73%, 54%);
+font-weight: 700;
+}
+.bluebg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    background-color: hsl(179, 62%, 43%);
+    padding: 5%;
+}
+.subs{
+    /* margin-right: auto; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.subs .price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    color: hsl(204, 43%, 93%);
+}
+.subs .price h1{
+color: white;
+}
+button{
+background-color: hsl(71, 73%, 54%);
+border: none;
+}
