@@ -36,6 +36,7 @@ font-weight: 700;
     gap: 60px;
     background-color: hsl(179, 62%, 43%);
     padding: 5%;
+    border-radius: 0 0 20px 20px;
 }
 .subs{
     /* margin-right: auto; */
