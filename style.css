@@ -1,61 +1,68 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: hsl(204, 43%, 93%);
-    font-family: "Karla",sans-serif;
+
+body, .container, .bluebg, .subs, .subs .price, .whyus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-    max-width: 400px;
+
+body {
+  height: 100vh;
+  background-color: hsl(204, 43%, 93%);
+  font-family: "Karla", sans-serif;
 }
-.whitebg{
-    background-color: white;
-    border-radius: 20px 20px 0 0;
-    padding: 5%;
+
+.container {
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
 }
-.whitebg span{
-color: hsl(71, 73%, 54%);
-font-weight: 700;
+
+.whitebg {
+  background-color: white;
+  border-radius: 20px 20px 0 0;
+  padding: 5%;
 }
-.bluebg{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 60px;
-    background-color: hsl(179, 62%, 43%);
-    padding: 5%;
-    border-radius: 0 0 20px 20px;
+
+.whitebg span {
+  color: hsl(71, 73%, 54%);
+  font-weight: 700;
 }
-.subs{
-    /* margin-right: auto; */
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    gap: 20px;
+
+.bluebg {
+  gap: 60px;
+  background-color: hsl(179, 62%, 43%);
+  padding: 5%;
+  border-radius: 0 0 20px 20px;
 }
-.subs .price{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 12px;
-    color: hsl(204, 43%, 93%);
+
+.subs {
+  /* margin-right: auto; */
+  gap: 20px;
+  flex-direction: column;
 }
-.subs .price h1{
-color: white;
+.subs .price {
+  gap: 12px;
+  color: hsl(204, 43%, 93%);
 }
-button{
-background-color: hsl(71, 73%, 54%);
-border: none;
+.subs .price h1 {
+  color: white;
 }
+
+button {
+  background-color: hsl(71, 73%, 54%);
+  border: none;
+  width: 100%;
+}
+
+.whyus {
+  flex-direction: column;
+}
+.whyus ul {
+  list-style-type: none;
+}/*# sourceMappingURL=style.css.map */
