@@ -9,47 +9,62 @@ body{
     @extend %flexbox;
     flex-direction: column;
     width: 100%;
-    max-width: 400px;
-}
+    max-width: 700px;
+
 .whitebg{
     background-color: white;
     border-radius: 20px 20px 0 0;
     padding: 5%;
-}
-.whitebg span{
+    width: 100%;
+    max-width: 700px;
+span{
 color: hsl(71, 73%, 54%);
 font-weight: 700;
+}
+p{
+    color:black;
+}
 }
 .bluebg{
     @extend %flexbox;
     gap: 60px;
     background-color: hsl(179, 62%, 43%);
-    padding: 5%;
+    padding: 3%;
     border-radius: 0 0 20px 20px;
-}
-.subs{
-    /* margin-right: auto; */
-    @extend %flexbox;
-    gap: 20px;
-    flex-direction: column;
-.price{
-    @extend %flexbox;
-    gap: 12px;
-    color: hsl(204, 43%, 93%);
-    h1{
-        color: white;
+    width: 100%;
+    max-width: 700px;
+    color: white;
+    .subs{
+        /* margin-right: auto; */
+        @extend %flexbox;
+        text-align: left;
+        gap: 20px;
+        flex-direction: column;
+       .price{
+        @extend %flexbox;
+        gap: 12px;
+        color: hsl(204, 43%, 93%);
+        h1{
+            color: white;
+        }
+    }
+    button{
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    width: 100%;
+    border-radius: 15px;
+    padding: 5%;
+    color: white;
+    font-weight: 600;
+    }
+    }
+    .whyus{
+        @extend %flexbox;
+        flex-direction: column;
+        line-height: 24px;
+        ul{
+          list-style-type: none;
+        }
     }
 }
-} 
-button{
-background-color: hsl(71, 73%, 54%);
-border: none;
-width: 100%;
-}
-.whyus{
-    @extend %flexbox;
-    flex-direction: column;
-    ul{
-      list-style-type: none;
-    }
 }

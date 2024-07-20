@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 
-body, .container, .bluebg, .subs, .subs .price, .whyus {
+body, .container, .container .bluebg, .container .bluebg .subs, .container .bluebg .subs .price, .container .bluebg .whyus {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,49 +20,57 @@ body {
 .container {
   flex-direction: column;
   width: 100%;
-  max-width: 400px;
+  max-width: 700px;
 }
-
-.whitebg {
+.container .whitebg {
   background-color: white;
   border-radius: 20px 20px 0 0;
   padding: 5%;
+  width: 100%;
+  max-width: 700px;
 }
-
-.whitebg span {
+.container .whitebg span {
   color: hsl(71, 73%, 54%);
   font-weight: 700;
 }
-
-.bluebg {
+.container .whitebg p {
+  color: black;
+}
+.container .bluebg {
   gap: 60px;
   background-color: hsl(179, 62%, 43%);
-  padding: 5%;
+  padding: 3%;
   border-radius: 0 0 20px 20px;
+  width: 100%;
+  max-width: 700px;
+  color: white;
 }
-
-.subs {
+.container .bluebg .subs {
   /* margin-right: auto; */
+  text-align: left;
   gap: 20px;
   flex-direction: column;
 }
-.subs .price {
+.container .bluebg .subs .price {
   gap: 12px;
   color: hsl(204, 43%, 93%);
 }
-.subs .price h1 {
+.container .bluebg .subs .price h1 {
   color: white;
 }
-
-button {
+.container .bluebg .subs button {
   background-color: hsl(71, 73%, 54%);
   border: none;
   width: 100%;
+  border-radius: 15px;
+  padding: 5%;
+  color: white;
+  font-weight: 600;
 }
-
-.whyus {
+.container .bluebg .whyus {
   flex-direction: column;
+  line-height: 24px;
 }
-.whyus ul {
+.container .bluebg .whyus ul {
   list-style-type: none;
 }/*# sourceMappingURL=style.css.map */
