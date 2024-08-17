@@ -17,6 +17,7 @@ body{
     padding: 5%;
     width: 100%;
     max-width: 700px;
+    height: 45%;
 span{
 color: hsl(71, 73%, 54%);
 font-weight: 700;
@@ -25,20 +26,23 @@ p{
     color:black;
 }
 }
+
 .bluebg{
     @extend %flexbox;
-    gap: 60px;
+    text-align: left;
+    // gap: 60px;
     background-color: hsl(179, 62%, 43%);
-    padding: 3%;
+    padding: 15px;
     border-radius: 0 0 20px 20px;
     width: 100%;
     max-width: 700px;
+    height: 55%;
     color: white;
+    // margin: auto;
+    width: 100%;
     .subs{
-        /* margin-right: auto; */
+        //  margin-right: auto; 
         @extend %flexbox;
-        text-align: left;
-        gap: 20px;
         flex-direction: column;
        .price{
         @extend %flexbox;
@@ -52,7 +56,7 @@ p{
     background-color: hsl(71, 73%, 54%);
     border: none;
     width: 100%;
-    border-radius: 15px;
+    border-radius: 7px;
     padding: 5%;
     color: white;
     font-weight: 600;
@@ -62,6 +66,8 @@ p{
         @extend %flexbox;
         flex-direction: column;
         line-height: 24px;
+        // margin-left: auto;
+        background-color: hsla(179, 62%, 43%, 0.699);
         ul{
           list-style-type: none;
         }

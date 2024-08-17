@@ -28,6 +28,7 @@ body {
   padding: 5%;
   width: 100%;
   max-width: 700px;
+  height: 45%;
 }
 .container .whitebg span {
   color: hsl(71, 73%, 54%);
@@ -37,18 +38,17 @@ body {
   color: black;
 }
 .container .bluebg {
-  gap: 60px;
+  text-align: left;
   background-color: hsl(179, 62%, 43%);
-  padding: 3%;
+  padding: 15px;
   border-radius: 0 0 20px 20px;
   width: 100%;
   max-width: 700px;
+  height: 55%;
   color: white;
+  width: 100%;
 }
 .container .bluebg .subs {
-  /* margin-right: auto; */
-  text-align: left;
-  gap: 20px;
   flex-direction: column;
 }
 .container .bluebg .subs .price {
@@ -62,7 +62,7 @@ body {
   background-color: hsl(71, 73%, 54%);
   border: none;
   width: 100%;
-  border-radius: 15px;
+  border-radius: 7px;
   padding: 5%;
   color: white;
   font-weight: 600;
@@ -70,6 +70,7 @@ body {
 .container .bluebg .whyus {
   flex-direction: column;
   line-height: 24px;
+  background-color: hsla(179, 62%, 43%, 0.699);
 }
 .container .bluebg .whyus ul {
   list-style-type: none;
