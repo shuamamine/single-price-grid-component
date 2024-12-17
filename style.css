@@ -5,73 +5,147 @@
   box-sizing: border-box;
 }
 
-body, .container, .container .bluebg, .container .bluebg .subs, .container .bluebg .subs .price, .container .bluebg .whyus {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 body {
-  height: 100vh;
+  width: 100%;
+  height: 800px;
   background-color: hsl(204, 43%, 93%);
+  position: relative;
+  display: flex;
+  flex-direction: column-reverse;
   font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
 }
 
-.container {
-  flex-direction: column;
+.card {
+  width: 50%;
+  height: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -200px;
+  margin-left: -25%;
+  box-shadow: 1px 40px 60px -15px hsl(204, 43%, 63%);
+}
+
+.container1 {
   width: 100%;
-  max-width: 700px;
+  height: 200px;
+  background-color: hsl(0, 100%, 100%);
+  position: relative;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
 }
-.container .whitebg {
-  background-color: white;
-  border-radius: 20px 20px 0 0;
-  padding: 5%;
+
+.container2 {
   width: 100%;
-  max-width: 700px;
-  height: 45%;
-}
-.container .whitebg span {
-  color: hsl(71, 73%, 54%);
-  font-weight: 700;
-}
-.container .whitebg p {
-  color: black;
-}
-.container .bluebg {
-  text-align: left;
-  background-color: hsl(179, 62%, 43%);
-  padding: 15px;
-  border-radius: 0 0 20px 20px;
-  width: 100%;
-  max-width: 700px;
-  height: 55%;
-  color: white;
-  width: 100%;
-}
-.container .bluebg .subs {
-  flex-direction: column;
-}
-.container .bluebg .subs .price {
-  gap: 12px;
+  height: 240px;
+  display: flex;
   color: hsl(204, 43%, 93%);
 }
-.container .bluebg .subs .price h1 {
-  color: white;
+
+.container21 {
+  width: 50%;
+  height: 240px;
+  background-color: hsl(179, 62%, 43%);
+  position: relative;
+  border-bottom-left-radius: 8px;
 }
-.container .bluebg .subs button {
+
+.container22 {
+  width: 50%;
+  height: 240px;
+  background-color: hsl(179, 62%, 60%);
+  position: relative;
+  border-bottom-right-radius: 8px;
+}
+
+.content1 h1 {
+  font-size: 25px;
+  color: hsl(179, 62%, 43%);
+  font-weight: 700;
+}
+
+.content1 h3 {
+  color: hsl(71, 73%, 54%);
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.content1 p {
+  color: hsl(218, 22%, 67%);
+  line-height: 25px;
+  margin-top: 10px;
+}
+
+.content1 {
+  width: 90%;
+  height: 140px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -70px;
+  margin-left: -45%;
+}
+
+#month {
+  color: hsl(218, 22%, 80%);
+  margin-top: 10px;
+}
+
+#month span {
+  font-size: 35px;
+  color: hsl(204, 43%, 93%);
+  vertical-align: middle;
+  font-weight: 700;
+}
+
+#access {
+  margin-top: 5px;
+}
+
+.content2 button {
+  margin-top: 25px;
+  padding: 15px 94px;
   background-color: hsl(71, 73%, 54%);
-  border: none;
-  width: 100%;
-  border-radius: 7px;
-  padding: 5%;
-  color: white;
-  font-weight: 600;
+  border: 0;
+  border-radius: 5px;
+  color: hsl(204, 43%, 93%);
+  font-weight: 700;
+  box-shadow: 1px 1px 19px 1px hsl(179, 62%, 35%);
+  text-shadow: 1px 1px 15px hsl(71, 73%, 38%);
 }
-.container .bluebg .whyus {
-  flex-direction: column;
-  line-height: 24px;
-  background-color: hsla(179, 62%, 43%, 0.699);
+
+.content2 {
+  width: 80%;
+  height: 170px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -85px;
+  margin-left: -40%;
 }
-.container .bluebg .whyus ul {
-  list-style-type: none;
+
+.content3 {
+  width: 80%;
+  height: 170px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -85px;
+  margin-left: -40%;
+}
+
+.content3 pre {
+  margin-top: 15px;
+  line-height: 19px;
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  width: 188px;
+  margin-left: -39px;
 }/*# sourceMappingURL=style.css.map */
